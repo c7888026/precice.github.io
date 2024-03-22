@@ -127,7 +127,7 @@ You can use the following `precice-config.xml`:
       <read-data  name="Forces" mesh="StructureMesh"/>
     </participant>
 
-    <m2n:sockets from="FluidSolver" to="SolidSolver"/>
+    <m2n:sockets acceptor="FluidSolver" connector="SolidSolver"/>
 
     <coupling-scheme:serial-explicit>
       <participants first="FluidSolver" second="SolidSolver"/>
