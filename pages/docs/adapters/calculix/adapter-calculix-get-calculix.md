@@ -79,8 +79,8 @@ Till 2022, ARPACK was hosted by the <a href="https://www.caam.rice.edu/software/
 Download Arpack and patch:
 
 ```bash
-wget https://web.archive.org/web/20220526222500fw_/https://www.caam.rice.edu/software/ARPACK/SRC/arpack96.tar.gz
-wget https://web.archive.org/web/20220526222500fw_/https://www.caam.rice.edu/software/ARPACK/SRC/patch.tar.gz 
+wget https://src.fedoraproject.org/lookaside/extras/arpack/arpack96.tar.gz/fffaa970198b285676f4156cebc8626e/arpack96.tar.gz
+wget https://src.fedoraproject.org/lookaside/extras/arpack/patch.tar.gz/14830d758f195f272b8594a493501fa2/patch.tar.gz
 ```
 
 Unpack them (they will be unpacked in the newly created directory `ARPACK`)
